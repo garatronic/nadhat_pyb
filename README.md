@@ -20,7 +20,7 @@ Installation du dépot micropython
     $ cd micropython/mpy-cross
     $ make
     $ cd ../port/stm32
-    $ make BOARD=NADHAT_PYB405
+    $ make BOARD=NADHAT_PYBF405
 
 
 Téléchargement du noyan dans la carte
@@ -28,4 +28,4 @@ Téléchargement du noyan dans la carte
 
 Après avoir placé la carte en mode téléchargement
 
-    $ sudo make deploy BOARD=NADHAT_PYB405
+    $ sudo make deploy BOARD=NADHAT_PYBF405
