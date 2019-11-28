@@ -19,7 +19,7 @@ Installation du dépot micropython
     $ git clone git://github.com/garatronic/micropython
     $ cd micropython/mpy-cross
     $ make
-    $ cd ../port/stm32
+    $ cd ../ports/stm32
     $ make BOARD=NADHAT_PYBF405
 
 
