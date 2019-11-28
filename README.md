@@ -15,8 +15,11 @@ A completer
 
 Installation du dépot micropython
 ---------------------------------
+    $ sudo apt install gcc-arm-none-eabi
     $ git clone git://github.com/garatronic/micropython
-    $ cd micropython/port/stm32
+    $ cd micropython/mpy-cross
+    $ make
+    $ cd ../port/stm32
     $ make BOARD=NADHAT_PYB405
 
 
@@ -25,4 +28,4 @@ Téléchargement du noyan dans la carte
 
 Après avoir placé la carte en mode téléchargement
 
-    $ sudo make deploy
+    $ sudo make deploy BOARD=NADHAT_PYB405
